@@ -1,3 +1,7 @@
+# Welcome to my awfully maintained GitHub profile!
+
+![:GDjkhp](https://count.getloli.com/get/@:GDjkhp?theme=rule34)
+
 - 👋 Hi, I’m @GDjkhp
 - 👀 I’m interested in playing video games, making music, watching anime, programming, and procrastinating.
 - 🌱 I’m currently learning game development and how to hack 'em.
