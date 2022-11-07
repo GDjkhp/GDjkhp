@@ -5,7 +5,7 @@
 - 👋 Hi, I’m @GDjkhp
 - 👀 I’m interested in playing video games, making music, watching anime, programming, and procrastinating.
 - 🌱 I’m currently learning game development and how to hack 'em.
-- 💞️ I’m looking to collaborate on programming (mainly games or useful programs regarding logic and graphics, currently making some games) and music (working on an album re-release)
+- 💞️ I’m looking to collaborate on programming (mainly games or useful programs regarding logic and graphics, currently making some games) and music (working on an album re-release).
 - 📫 How to reach me: https://gdjkhp.github.io/
 
 <!---
