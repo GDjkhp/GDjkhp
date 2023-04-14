@@ -9,8 +9,11 @@
 - 👋 Hi, I’m @GDjkhp
 - 👀 I’m interested in playing video games, making music, watching anime, programming, and procrastinating.
 - 🌱 I’m currently learning game development and how to hack 'em.
-- 💞️ I’m looking to collaborate on programming, mainly games or useful programs involving graphics, and music, check them out on my YouTube.
 - 📫 How to reach me: https://gdjkhp.github.io/
+
+<div align="center">
+  <img src="https://pa1.narvii.com/6201/1ca7a3fa77709ae35a5cf718ae78d187458ffa95_hq.gif">
+</div>
 
 <!---
 GDjkhp/GDjkhp is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
