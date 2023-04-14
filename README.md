@@ -1,6 +1,10 @@
-# Welcome to my awfully maintained GitHub profile!
-
-![:GDjkhp](https://count.getloli.com/get/@:GDjkhp?theme=rule34)
+<div align="center">
+  <a href="http://gdjkhp.github.io/">
+  <img src="https://gdjkhp.github.io/img/logo%20cropped.png" title="Look at this awesome logo. Do people actually read this?">
+  <h1>Welcome to my awfully maintained GitHub profile!</h1>
+  <img src="https://count.getloli.com/get/@:GDjkhp?theme=rule34">
+  </a>
+</div>
 
 - 👋 Hi, I’m @GDjkhp
 - 👀 I’m interested in playing video games, making music, watching anime, programming, and procrastinating.
