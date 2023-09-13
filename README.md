@@ -13,11 +13,7 @@
 
 # goofy ahh graph
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ssr-contributions-svg.vercel.app/_/GDjkhp?chart=3dbar&gap=0.6&scale=2&animation=wave&animation_duration=1&animation_delay=0.05&animation_amplitude=20&animation_frequency=0.5&animation_wave_center=0_0&weeks=50&theme=green&dark=true&format=svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://ssr-contributions-svg.vercel.app/_/GDjkhp?chart=3dbar&gap=0.6&scale=2&animation=wave&animation_duration=1&animation_delay=0.05&animation_amplitude=20&animation_frequency=0.5&animation_wave_center=0_0&weeks=50&theme=green&dark=true&format=svg">
-  <img src="[https://pa1.narvii.com/6201/1ca7a3fa77709ae35a5cf718ae78d187458ffa95_hq.gif](https://ssr-contributions-svg.vercel.app/_/GDjkhp?chart=3dbar&gap=0.6&scale=2&animation=wave&animation_duration=1&animation_delay=0.05&animation_amplitude=20&animation_frequency=0.5&animation_wave_center=0_0&weeks=50&theme=green&dark=true&format=svg)https://ssr-contributions-svg.vercel.app/_/GDjkhp?chart=3dbar&gap=0.6&scale=2&animation=wave&animation_duration=1&animation_delay=0.05&animation_amplitude=20&animation_frequency=0.5&animation_wave_center=0_0&weeks=50&theme=green&dark=true&format=svg">
-  </picture>
+  <img src="https://ssr-contributions-svg.vercel.app/_/GDjkhp?chart=3dbar&gap=0.6&scale=2&animation=wave&animation_duration=1&animation_delay=0.05&animation_amplitude=20&animation_frequency=0.5&animation_wave_center=0_0&weeks=50&theme=green&dark=true&format=svg">
 </div>
 
 # my half-assed works
