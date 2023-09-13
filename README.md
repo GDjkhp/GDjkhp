@@ -22,7 +22,7 @@
 
 # my half-assed works
 
-- [NoobGPT](https://github.com/GDjkhp/NoobGPT) - A **very simple yet complicated** multi-purpose Discord bot that does pretty much nothing but insult you.
+- [NoobGPT](https://gdjkhp.github.io/NoobGPT/) - A **very simple yet complicated** multi-purpose Discord bot that does pretty much nothing but insult you.
   - <https://github.com/GDjkhp/level-up-loser>
   - <https://github.com/GDjkhp/level-up-loser-python-branch>
 
