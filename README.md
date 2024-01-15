@@ -16,6 +16,7 @@
 - [NoobGPT](https://gdjkhp.github.io/NoobGPT/) - A **very simple yet complicated** multi-purpose Discord bot that does pretty much nothing but insult you.
   - <https://github.com/GDjkhp/level-up-loser>
   - <https://github.com/GDjkhp/level-up-loser-python-branch>
+  - <https://github.com/GDjkhp/Discord-MusicBot>
 
 - [meeseeks-leaderboard-api](https://gdjkhp.github.io/meeseeks-leaderboard-api/) - Pointless efforts to brag your meeseeks rank instead of typing !rank that no one asked. 
   - <https://github.com/GDjkhp/meeseeks-leaderboard-api>
