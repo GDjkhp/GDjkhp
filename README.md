@@ -12,7 +12,9 @@
 - 📫 How to reach me: https://gdjkhp.github.io/
 
 <div align="center">
-  <img src="https://lanyard.cnrad.dev/api/729554186777133088?bg=000000" alt="Discord RPC isn't working!" title="Click here to visit my Discord Profile!"> </img>
+  <a href="https://discord.com/users/729554186777133088">
+    <img src="https://lanyard.cnrad.dev/api/729554186777133088?bg=000000" alt="Discord RPC isn't working!" title="Click here to visit my Discord Profile!"> </img>
+  </a>
 </div>
 
 # my half-assed works
