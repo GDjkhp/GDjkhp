@@ -11,10 +11,14 @@
 - 🌱 I’m currently learning game development and how to hack 'em.
 - 📫 How to reach me: https://gdjkhp.github.io/
 
+<div align="center">
+  <img src="https://lanyard.cnrad.dev/api/729554186777133088?bg=000000" alt="Discord RPC isn't working!" title="Click here to visit my Discord Profile!"> </img>
+</div>
+
 # my half-assed works
 
 - [NoobGPT](https://gdjkhp.github.io/NoobGPT/) - A **very simple yet complicated** multi-purpose Discord bot that does pretty much nothing but insult you.
-  - <https://github.com/GDjkhp/level-up-loser>
+  - ~~<https://github.com/GDjkhp/level-up-loser>~~
   - <https://github.com/GDjkhp/level-up-loser-python-branch>
   - <https://github.com/GDjkhp/Discord-MusicBot>
 
