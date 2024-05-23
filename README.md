@@ -13,7 +13,7 @@
 
 <div align="center">
   <a href="https://discord.com/users/729554186777133088">
-    <img src="https://lanyard.cnrad.dev/api/729554186777133088?bg=000000" alt="Discord RPC isn't working!" title="Click here to visit my Discord Profile!"> </img>
+    <img src="https://discord.c99.nl/widget/theme-3/729554186777133088.png" alt="Discord RPC isn't working!" title="Click here to visit my Discord Profile!"> </img>
   </a>
 </div>
 
