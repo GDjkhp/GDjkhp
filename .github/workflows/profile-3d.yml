@@ -26,4 +26,4 @@ jobs:
           git pull origin output-test
           git add -A .
           git commit -m "generated"
-          git push origin output-test
+          git push
