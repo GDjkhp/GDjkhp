@@ -24,4 +24,7 @@ jobs:
           git config user.email github-actions@github.com
           git add -A .
           git commit -m "generated"
-          git push origin main:output
+          git stash
+          git checkout output
+          git stash pop
+          git push
