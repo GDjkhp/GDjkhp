@@ -22,8 +22,8 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git rm -r --cached . --exclude=profile-3d-contrib
-          rm -rf .github
-          git add -A .
+          git checkout --orphan output-test
+          git rm -rf .
+          git add -f profile-3d-contrib
           git commit -m "generated"
-          git push origin HEAD:output-test
+          git push -u origin output-test --force
