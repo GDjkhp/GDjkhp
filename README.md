@@ -12,7 +12,7 @@
 - 📫 How to reach me: https://gdjkhp.github.io/
 
 <div align="center">
-  <a href="discord://discord.com/users/729554186777133088">
+  <a href="https://discord.com/users/729554186777133088">
     <img src="https://discord.c99.nl/widget/theme-3/729554186777133088.png" alt="Discord RPC isn't working!" title="Click here to visit my Discord Profile!">
   </a>
 </div>
