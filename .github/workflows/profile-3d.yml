@@ -22,9 +22,6 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git config pull.rebase true
-          git checkout -f -b output-test
-          git pull origin output-test
-          git add -A .
+          git add -A profile-3d-contrib
           git commit -m "generated"
-          git push
+          git push origin HEAD:output-test
