@@ -2,7 +2,7 @@
   <a href="http://gdjkhp.github.io/">
     <img src="https://gdjkhp.github.io/img/logo%20cropped.png" title="Look at this awesome logo. Do people actually read this?">
     <h1>Welcome to my awfully maintained GitHub profile!</h1>
-    <img src="https://count.getloli.com/get/@:GDjkhp?theme=rule34">
+    <img src="https://count.getloli.com/get/@:GDjkhp?theme=rule34&darkmode=0">
   </a>
 </div>
 
