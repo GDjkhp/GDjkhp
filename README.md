@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="http://gdjkhp.github.io/">
+  <a href="http://gdjkhp.github.io">
     <img src="https://gdjkhp.github.io/img/logo%20cropped.png" title="Look at this awesome logo. Do people actually read this?">
     <h1>Welcome to my awfully maintained GitHub profile!</h1>
     <img src="https://count.getloli.com/get/@:GDjkhp?theme=rule34&darkmode=0">
@@ -9,7 +9,7 @@
 - 👋 Hi, I’m @GDjkhp
 - 👀 I’m interested in playing video games, composing music, watching anime, programming, and procrastinating.
 - 🌱 I’m currently learning game development and how to hack 'em.
-- 📫 How to reach me: https://gdjkhp.github.io/
+- 📫 How to reach me: https://gdjkhp.github.io
 
 <div align="center">
   <a href="https://discord.com/users/729554186777133088">
@@ -18,11 +18,11 @@
 </div>
 
 # my half-assed works
-
-- [NoobGPT](https://gdjkhp.github.io/NoobGPT/) - A **very simple yet complicated** multi-purpose Discord bot that does pretty much nothing but insult you.
+- [NoobGPT](https://gdjkhp.github.io/NoobGPT) - A **very simple yet complicated** multi-purpose Discord bot that does pretty much nothing but insult you.
   - <https://github.com/GDjkhp/level-up-loser-python-branch>
-
-- [meeseeks-leaderboard-api](https://gdjkhp.github.io/meeseeks-leaderboard-api/) - Pointless efforts to brag your meeseeks rank instead of typing !rank that no one asked. 
+- [ama-facial-recognition](https://gdjkhp.github.io/ama-facial-recognition) - free to use AI face recognition O_O
+  - <https://github.com/GDjkhp/ama-facial-recognition>
+- [meeseeks-leaderboard-api](https://gdjkhp.github.io/meeseeks-leaderboard-api) - Pointless efforts to brag your meeseeks rank instead of typing !rank that no one asked.
   - <https://github.com/GDjkhp/meeseeks-leaderboard-api>
 
 [More here…](https://github.com/GDjkhp?tab=repositories)
