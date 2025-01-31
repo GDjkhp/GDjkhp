@@ -8,7 +8,6 @@
 
 - 👋 Hi, I’m @GDjkhp
 - 👀 I’m interested in playing video games, composing music, watching anime, programming, and procrastinating.
-- 🌱 I’m currently learning game development and how to hack 'em.
 - 📫 How to reach me: https://gdjkhp.github.io
 
 <div align="center">
@@ -20,7 +19,7 @@
 # my half-assed works
 - [NoobGPT](https://gdjkhp.github.io/NoobGPT) - A **very simple yet complicated** multi-purpose Discord bot that does pretty much nothing but insult you.
   - <https://github.com/GDjkhp/level-up-loser-python-branch>
-- [ama-facial-recognition](https://gdjkhp.github.io/ama-facial-recognition) - free to use AI face recognition O_O
+- [ama-facial-recognition](https://gdjkhp.github.io/ama-facial-recognition) - Free to Use AI Face Recognition (O_O)
   - <https://github.com/GDjkhp/ama-facial-recognition>
 - [meeseeks-leaderboard-api](https://gdjkhp.github.io/meeseeks-leaderboard-api) - Pointless efforts to brag your meeseeks rank instead of typing !rank that no one asked.
   - <https://github.com/GDjkhp/meeseeks-leaderboard-api>
