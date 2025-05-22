@@ -4,17 +4,15 @@
     <h1>Welcome to my awfully maintained GitHub profile!</h1>
     <img src="https://count.getloli.com/get/@:GDjkhp?theme=rule34&darkmode=0">
   </a>
+  <br>
+  <a href="https://discord.com/users/729554186777133088">
+    <img src="https://discord.c99.nl/widget/theme-3/729554186777133088.png" alt="Discord RPC isn't working!" title="Click here to visit my Discord Profile!">
+  </a>
 </div>
 
 - 👋 Hi, I’m @GDjkhp
 - 👀 I’m interested in playing video games, composing music, watching anime, programming, and procrastinating.
 - 📫 How to reach me: https://gdjkhp.github.io
-
-<div align="center">
-  <a href="https://discord.com/users/729554186777133088">
-    <img src="https://discord.c99.nl/widget/theme-3/729554186777133088.png" alt="Discord RPC isn't working!" title="Click here to visit my Discord Profile!">
-  </a>
-</div>
 
 # my half-assed works
 - [NoobGPT](https://gdjkhp.github.io/NoobGPT) - A **very simple yet complicated** multi-purpose Discord bot that does pretty much nothing but insult you.
