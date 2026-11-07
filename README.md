@@ -17,10 +17,14 @@
 # my half-assed works
 - [NoobGPT](https://gdjkhp.github.io/NoobGPT) - A **very simple yet complicated** multi-purpose Discord bot that does pretty much nothing but insult you.
   - <https://github.com/GDjkhp/level-up-loser-python-branch>
-- [ama-facial-recognition](https://gdjkhp.github.io/ama-facial-recognition) - Free to Use AI Face Recognition (O_O)
-  - <https://github.com/GDjkhp/ama-facial-recognition>
+- [Noobplayer](https://doopees.gdjkhp.com) - A **very basic yet complex** audio web player that plays copyrighted content straight off Google's servers.
+  - <https://gdjkhp.github.io/noobplayer-beta>
 - [meeseeks-leaderboard-api](https://gdjkhp.github.io/meeseeks-leaderboard-api) - Pointless efforts to brag your meeseeks rank instead of typing !rank that no one asked.
   - <https://github.com/GDjkhp/meeseeks-leaderboard-api>
+- [AmongUsCosmetics](https://www.unknowncheats.me/forum/among-us/521567-amonguscosmetics.html) - Unlocks all in-game cosmetics for the popular Game Among Us.
+  - <https://github.com/GDjkhp/AmongUsMenu>
+- [ama-facial-recognition](https://gdjkhp.github.io/ama-facial-recognition) - Free to Use AI Face Recognition (O_O)
+  - <https://github.com/GDjkhp/ama-facial-recognition>
 
 [More here…](https://github.com/GDjkhp?tab=repositories)
 
@@ -31,7 +35,7 @@
   <img src="https://api.githubtrends.io/user/svg/GDjkhp/repos?time_range=all_time&theme=dark"> -->
   <img src="https://raw.githubusercontent.com/GDjkhp/GDjkhp/output/github-contribution-grid-snake-dark.svg">
   <img src="https://ssr-contributions-svg.vercel.app/_/GDjkhp?chart=3dbar&gap=0.6&scale=2&animation=wave&animation_duration=1&animation_delay=0.05&animation_amplitude=20&animation_frequency=0.5&animation_wave_center=0_0&weeks=50&theme=green&dark=true&format=svg">
-  <img src=https://raw.githubusercontent.com/GDjkhp/GDjkhp/main/github-metrics.svg>
+  <img src=https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics/github-metrics.svg>
 </div>
 
 <!---
