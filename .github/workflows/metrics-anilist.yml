@@ -1,0 +1,54 @@
+name: Metrics (AniList)
+on:
+  # Schedule daily updates
+  schedule: [{cron: "10 0 * * *"}]
+  # (optional) Run workflow manually
+  workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics-anilist:
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+    permissions:
+      contents: write
+    steps:
+      - name: generate github-metrics-anilist.svg
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Don't commit to the current branch, the render is pushed to `metrics-anilist` below
+          output_action: none
+          filename: github-metrics-anilist.svg
+
+          user: GDjkhp
+          template: classic
+          # Disable every base section so only the AniList plugin is rendered
+          base: ""
+          config_timezone: Asia/Manila
+
+          plugin_anilist: yes
+          plugin_anilist_limit: 1000
+          plugin_anilist_limit_characters: 1000
+          plugin_anilist_medias: anime
+          plugin_anilist_sections: favorites, characters
+          plugin_anilist_shuffle: yes
+          plugin_anilist_user: GDjkhp
+
+      # the action writes its render to /metrics_renders when output_action is none
+      - name: collect github-metrics-anilist.svg
+        run: |
+          mkdir -p dist
+          cp /metrics_renders/github-metrics-anilist.svg dist/github-metrics-anilist.svg
+
+      # push the content of <build_dir> to a branch
+      # available at https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-anilist/github-metrics-anilist.svg
+      - name: push github-metrics-anilist.svg to the metrics-anilist branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: metrics-anilist
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
