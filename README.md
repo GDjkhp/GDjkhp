@@ -18,7 +18,7 @@
 - [NoobGPT](https://gdjkhp.github.io/NoobGPT) - A **very simple yet complicated** multi-purpose Discord bot that does pretty much nothing but insult you.
   - <https://github.com/GDjkhp/level-up-loser-python-branch>
 - [Noobplayer](https://doopees.gdjkhp.com) - A **very basic yet complex** audio web player that plays copyrighted content straight off Google's servers.
-  - <https://gdjkhp.github.io/noobplayer-beta>
+  - <https://github.com/GDjkhp/noobplayer-beta>
 - [meeseeks-leaderboard-api](https://gdjkhp.github.io/meeseeks-leaderboard-api) - Pointless efforts to brag your meeseeks rank instead of typing !rank that no one asked.
   - <https://github.com/GDjkhp/meeseeks-leaderboard-api>
 - [AmongUsCosmetics](https://www.unknowncheats.me/forum/among-us/521567-amonguscosmetics.html) - Unlocks all in-game cosmetics for the popular Game Among Us.
