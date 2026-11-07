@@ -48,7 +48,7 @@ jobs:
       - name: push github-metrics-anilist.svg to the metrics-anilist branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: metrics
+          target_branch: metrics-anilist
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
