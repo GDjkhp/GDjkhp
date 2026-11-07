@@ -50,7 +50,7 @@ jobs:
       - name: push github-metrics-lastfm.svg to the metrics-lastfm branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: metrics-lastfm
+          target_branch: metrics
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

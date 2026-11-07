@@ -73,7 +73,7 @@ jobs:
       - name: push github-metrics-github.svg to the metrics-github branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: metrics-github
+          target_branch: metrics
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
