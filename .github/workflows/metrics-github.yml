@@ -35,7 +35,7 @@ jobs:
             gnuplot
           plugin_languages_indepth: yes
           plugin_languages_details: lines, bytes-size
-          plugin_languages_limit: 8
+          plugin_languages_limit: 6
           plugin_languages_analysis_timeout: 15
 
           # Featured repositories: Pinned repositories
@@ -60,7 +60,7 @@ jobs:
 
           # Recently starred repositories: Recently starred
           plugin_stars: yes
-          plugin_stars_limit: 4
+          plugin_stars_limit: 6
 
       # the action writes its render to /metrics_renders when output_action is none
       - name: collect github-metrics-github.svg

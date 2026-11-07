@@ -17,7 +17,7 @@ jobs:
       - name: generate github-metrics-anilist.svg
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: NOT_NEEDED
 
           # Don't commit to the current branch, the render is pushed to `metrics-anilist` below
           output_action: none
