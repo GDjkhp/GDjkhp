@@ -1,22 +1,22 @@
-name: Metrics (MP3 - YT Music)
+name: Metrics (YT Music - MP3)
 on:
   schedule: [{cron: "50 0 * * *"}]
   workflow_dispatch:
   push: {branches: ["master", "main"]}
 jobs:
-  github-metrics-mp3-ytmusic:
+  github-metrics-ytmusic-mp3:
     runs-on: ubuntu-latest
     environment:
       name: production
     permissions:
       contents: write
     steps:
-      - name: generate github-metrics-mp3-ytmusic.svg
+      - name: generate github-metrics-ytmusic-mp3.svg
         uses: lowlighter/metrics@latest
         with:
           token: NOT_NEEDED
           output_action: none
-          filename: github-metrics-mp3-ytmusic.svg
+          filename: github-metrics-ytmusic-mp3.svg
 
           user: GDjkhp
           template: classic
@@ -27,16 +27,16 @@ jobs:
           plugin_music_playlist: >-
             https://music.youtube.com/playlist?list=PLH5sYo3B_zIWfb4WcR6r3yO_SXX140fuH
 
-      - name: collect github-metrics-mp3-ytmusic.svg
+      - name: collect github-metrics-ytmusic-mp3.svg
         run: |
           mkdir -p dist
-          cp /metrics_renders/github-metrics-mp3-ytmusic.svg dist/github-metrics-mp3-ytmusic.svg
+          cp /metrics_renders/github-metrics-ytmusic-mp3.svg dist/github-metrics-ytmusic-mp3.svg
 
-      # available at https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-mp3-ytmusic/github-metrics-mp3-ytmusic.svg
-      - name: push github-metrics-mp3-ytmusic.svg to the metrics-mp3-ytmusic branch
+      # available at https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-ytmusic-mp3/github-metrics-ytmusic-mp3.svg
+      - name: push github-metrics-ytmusic-mp3.svg to the metrics-ytmusic-mp3 branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: metrics-mp3-ytmusic
+          target_branch: metrics-ytmusic-mp3
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

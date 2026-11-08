@@ -1,22 +1,22 @@
-name: Metrics (Pinoy - YT Music)
+name: Metrics (YT Music - Pinoy)
 on:
   schedule: [{cron: "40 0 * * *"}]
   workflow_dispatch:
   push: {branches: ["master", "main"]}
 jobs:
-  github-metrics-pinoy-ytmusic:
+  github-metrics-ytmusic-pinoy:
     runs-on: ubuntu-latest
     environment:
       name: production
     permissions:
       contents: write
     steps:
-      - name: generate github-metrics-pinoy-ytmusic.svg
+      - name: generate github-metrics-ytmusic-pinoy.svg
         uses: lowlighter/metrics@latest
         with:
           token: NOT_NEEDED
           output_action: none
-          filename: github-metrics-pinoy-ytmusic.svg
+          filename: github-metrics-ytmusic-pinoy.svg
 
           user: GDjkhp
           template: classic
@@ -27,16 +27,16 @@ jobs:
           plugin_music_playlist: >-
             https://music.youtube.com/playlist?list=PLH5sYo3B_zIXBDf2Q85ENrjkz98UYcf5v
 
-      - name: collect github-metrics-pinoy-ytmusic.svg
+      - name: collect github-metrics-ytmusic-pinoy.svg
         run: |
           mkdir -p dist
-          cp /metrics_renders/github-metrics-pinoy-ytmusic.svg dist/github-metrics-pinoy-ytmusic.svg
+          cp /metrics_renders/github-metrics-ytmusic-pinoy.svg dist/github-metrics-ytmusic-pinoy.svg
 
-      # available at https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-pinoy-ytmusic/github-metrics-pinoy-ytmusic.svg
-      - name: push github-metrics-pinoy-ytmusic.svg to the metrics-pinoy-ytmusic branch
+      # available at https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-ytmusic-pinoy/github-metrics-ytmusic-pinoy.svg
+      - name: push github-metrics-ytmusic-pinoy.svg to the metrics-ytmusic-pinoy branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: metrics-pinoy-ytmusic
+          target_branch: metrics-ytmusic-pinoy
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

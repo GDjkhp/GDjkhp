@@ -1,22 +1,22 @@
-name: Metrics (MP3 - Spotify)
+name: Metrics (Spotify - MP3)
 on:
   schedule: [{cron: "55 0 * * *"}]
   workflow_dispatch:
   push: {branches: ["master", "main"]}
 jobs:
-  github-metrics-mp3-spotify:
+  github-metrics-spotify-mp3:
     runs-on: ubuntu-latest
     environment:
       name: production
     permissions:
       contents: write
     steps:
-      - name: generate github-metrics-mp3-spotify.svg
+      - name: generate github-metrics-spotify-mp3.svg
         uses: lowlighter/metrics@latest
         with:
           token: NOT_NEEDED
           output_action: none
-          filename: github-metrics-mp3-spotify.svg
+          filename: github-metrics-spotify-mp3.svg
 
           user: GDjkhp
           template: classic
@@ -26,16 +26,16 @@ jobs:
           plugin_music: yes
           plugin_music_playlist: https://open.spotify.com/embed/playlist/64EfDyiUHoW0us6BTg86cq
 
-      - name: collect github-metrics-mp3-spotify.svg
+      - name: collect github-metrics-spotify-mp3.svg
         run: |
           mkdir -p dist
-          cp /metrics_renders/github-metrics-mp3-spotify.svg dist/github-metrics-mp3-spotify.svg
+          cp /metrics_renders/github-metrics-spotify-mp3.svg dist/github-metrics-spotify-mp3.svg
 
-      # available at https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-mp3-spotify/github-metrics-mp3-spotify.svg
-      - name: push github-metrics-mp3-spotify.svg to the metrics-mp3-spotify branch
+      # available at https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-spotify-mp3/github-metrics-spotify-mp3.svg
+      - name: push github-metrics-spotify-mp3.svg to the metrics-spotify-mp3 branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: metrics-mp3-spotify
+          target_branch: metrics-spotify-mp3
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

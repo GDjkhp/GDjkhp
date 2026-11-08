@@ -1,22 +1,22 @@
-name: Metrics (Anime - YT Music)
+name: Metrics (YT Music - Anime)
 on:
   schedule: [{cron: "30 0 * * *"}]
   workflow_dispatch:
   push: {branches: ["master", "main"]}
 jobs:
-  github-metrics-anime-ytmusic:
+  github-metrics-ytmusic-anime:
     runs-on: ubuntu-latest
     environment:
       name: production
     permissions:
       contents: write
     steps:
-      - name: generate github-metrics-anime-ytmusic.svg
+      - name: generate github-metrics-ytmusic-anime.svg
         uses: lowlighter/metrics@latest
         with:
           token: NOT_NEEDED
           output_action: none
-          filename: github-metrics-anime-ytmusic.svg
+          filename: github-metrics-ytmusic-anime.svg
 
           user: GDjkhp
           template: classic
@@ -27,16 +27,16 @@ jobs:
           plugin_music_playlist: >-
             https://music.youtube.com/playlist?list=PLH5sYo3B_zIWRYKF8qwoOQMx8ysH9wSkv
 
-      - name: collect github-metrics-anime-ytmusic.svg
+      - name: collect github-metrics-ytmusic-anime.svg
         run: |
           mkdir -p dist
-          cp /metrics_renders/github-metrics-anime-ytmusic.svg dist/github-metrics-anime-ytmusic.svg
+          cp /metrics_renders/github-metrics-ytmusic-anime.svg dist/github-metrics-ytmusic-anime.svg
 
-      # available at https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-anime-ytmusic/github-metrics-anime-ytmusic.svg
-      - name: push github-metrics-anime-ytmusic.svg to the metrics-anime-ytmusic branch
+      # available at https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-ytmusic-anime/github-metrics-ytmusic-anime.svg
+      - name: push github-metrics-ytmusic-anime.svg to the metrics-ytmusic-anime branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: metrics-anime-ytmusic
+          target_branch: metrics-ytmusic-anime
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
