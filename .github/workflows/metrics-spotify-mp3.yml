@@ -24,6 +24,7 @@ jobs:
           config_timezone: Asia/Manila
 
           plugin_music: yes
+          plugin_music_limit: 25
           plugin_music_playlist: https://open.spotify.com/embed/playlist/64EfDyiUHoW0us6BTg86cq
 
       - name: collect github-metrics-spotify-mp3.svg

@@ -36,11 +36,12 @@
   <img src="https://raw.githubusercontent.com/GDjkhp/GDjkhp/output/github-contribution-grid-snake-dark.svg">
   <img src="https://ssr-contributions-svg.vercel.app/_/GDjkhp?chart=3dbar&gap=0.6&scale=2&animation=wave&animation_duration=1&animation_delay=0.05&animation_amplitude=20&animation_frequency=0.5&animation_wave_center=0_0&weeks=50&theme=green&dark=true&format=svg">
   <img align="left" width="390" src=https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-github/github-metrics-github.svg>
+  <img align="right" width="390" src=https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-steam/github-metrics-steam.svg>
+  <img align="left" width="390" src=https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-anilist/github-metrics-anilist.svg>
   <img align="right" width="390" src=https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-lastfm/github-metrics-lastfm.svg>
   <img align="left" width="390" src=https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-ytmusic-mp3/github-metrics-ytmusic-mp3.svg>
   <img align="left" width="390" src=https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-ytmusic-pinoy/github-metrics-ytmusic-pinoy.svg>
   <img align="left" width="390" src=https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-ytmusic-anime/github-metrics-ytmusic-anime.svg>
-  <img align="left" width="390" src=https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-steam/github-metrics-steam.svg>
 </div>
 
 <!---
