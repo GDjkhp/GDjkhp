@@ -12,7 +12,7 @@ jobs:
       contents: write
     steps:
       - name: generate github-metrics-steam.svg
-        uses: lowlighter/metrics@latest
+        uses: gdjkhp/metrics-music-steam-fix@latest
         with:
           # The steam plugin only talks to the Steam API, so no GitHub token is needed
           token: NOT_NEEDED

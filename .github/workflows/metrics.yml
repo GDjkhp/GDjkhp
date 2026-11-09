@@ -15,7 +15,7 @@ jobs:
       contents: write
     steps:
       - name: generate github-metrics.svg
-        uses: lowlighter/metrics@latest
+        uses: gdjkhp/metrics-music-steam-fix@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
