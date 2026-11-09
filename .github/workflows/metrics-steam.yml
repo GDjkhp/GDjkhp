@@ -1,0 +1,49 @@
+name: Metrics (Steam)
+on:
+  schedule: [{cron: "45 0 * * *"}]
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics-steam:
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+    permissions:
+      contents: write
+    steps:
+      - name: generate github-metrics-steam.svg
+        uses: lowlighter/metrics@latest
+        with:
+          # The steam plugin only talks to the Steam API, so no GitHub token is needed
+          token: NOT_NEEDED
+          output_action: none
+          filename: github-metrics-steam.svg
+
+          user: GDjkhp
+          template: classic
+          # Disable every base section so only the steam plugin is rendered
+          base: ""
+          config_timezone: Asia/Manila
+
+          plugin_steam: yes
+          plugin_steam_achievements_limit: 100
+          plugin_steam_games_limit: 100
+          plugin_steam_playtime_threshold: 0
+          plugin_steam_recent_games_limit: 10
+          plugin_steam_sections: player, most-played, recently-played
+          plugin_steam_user: "76561198990615491"
+          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+
+      - name: collect github-metrics-steam.svg
+        run: |
+          mkdir -p dist
+          cp /metrics_renders/github-metrics-steam.svg dist/github-metrics-steam.svg
+
+      # available at https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-steam/github-metrics-steam.svg
+      - name: push github-metrics-steam.svg to the metrics-steam branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: metrics-steam
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
