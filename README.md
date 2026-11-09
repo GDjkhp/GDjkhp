@@ -38,7 +38,7 @@
   <img align="left" width="390" src=https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-github/github-metrics-github.svg>
   <img align="right" width="390" src=https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-steam/github-metrics-steam.svg>
   <img align="left" width="390" src=https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-anilist/github-metrics-anilist.svg>
-  <img align="right" width="390" src=https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-lastfm/github-metrics-lastfm.svg>
+  <img align="left" width="390" src=https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-lastfm/github-metrics-lastfm.svg>
   <img align="left" width="390" src=https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-ytmusic-mp3/github-metrics-ytmusic-mp3.svg>
   <img align="left" width="390" src=https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-ytmusic-pinoy/github-metrics-ytmusic-pinoy.svg>
   <img align="left" width="390" src=https://raw.githubusercontent.com/GDjkhp/GDjkhp/metrics-ytmusic-anime/github-metrics-ytmusic-anime.svg>
