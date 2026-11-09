@@ -15,7 +15,7 @@ jobs:
       contents: write
     steps:
       - name: generate github-metrics-lastfm.svg
-        uses: gdjkhp/metrics-music-steam-fix@latest
+        uses: gdjkhp/metrics-music-steam-fix@master
         with:
           token: NOT_NEEDED
 
