@@ -43,15 +43,15 @@ jobs:
           plugin_repositories_pinned: 6
 
           # Coding habits and activity: Mildly interesting facts
-          # plugin_habits: yes
-          # plugin_habits_facts: yes
-          # plugin_habits_charts: no
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: no
 
           # Recent activity: Recent activity
-          # plugin_activity: yes
-          # plugin_activity_limit: 5
-          # plugin_activity_days: 0
-          # plugin_activity_filter: issue, pr, release, fork, review, ref/create
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 0
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create
 
           # Notable contributions: Indepth analysis
           plugin_notable: yes
