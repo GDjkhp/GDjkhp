@@ -14,6 +14,10 @@
 - 👀 I’m interested in playing video games, composing music, watching anime, programming, and procrastinating.
 - 📫 How to reach me: https://gdjkhp.github.io
 
+<div align="center">
+  <img src="https://gdjkhp.github.io/img/gdkit/cube_42.png"><img src="https://gdjkhp.github.io/img/gdkit/ship_28.png"><img src="https://gdjkhp.github.io/img/gdkit/ball_34.png"><img src="https://gdjkhp.github.io/img/gdkit/ufo_19.png"><img src="https://gdjkhp.github.io/img/gdkit/wave_10.png"><img src="https://gdjkhp.github.io/img/gdkit/robot_19.png"><img src="https://gdjkhp.github.io/img/gdkit/spider_7.png"><img src="https://gdjkhp.github.io/img/gdkit/swing_32.png"><img src="https://gdjkhp.github.io/img/gdkit/jetpack_5.png">
+</div>
+
 # my half-assed works
 - [NoobGPT](https://gdjkhp.github.io/NoobGPT) - A **very simple yet complicated** multi-purpose Discord bot that does pretty much nothing but insult you.
   - <https://github.com/GDjkhp/level-up-loser-python-branch>
