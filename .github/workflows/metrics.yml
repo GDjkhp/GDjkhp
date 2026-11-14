@@ -54,13 +54,13 @@ jobs:
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
 
           # Notable contributions: Indepth analysis
-          plugin_notable: yes
-          plugin_notable_indepth: yes
-          plugin_notable_repositories: yes
+          # plugin_notable: yes
+          # plugin_notable_indepth: yes
+          # plugin_notable_repositories: yes
 
           # Recently starred repositories: Recently starred
-          plugin_stars: yes
-          plugin_stars_limit: 6
+          # plugin_stars: yes
+          # plugin_stars_limit: 6
 
           plugin_steam: yes
           plugin_steam_achievements_limit: 6
