@@ -6,7 +6,8 @@
   </a>
   <br>
   <a href="https://discord.com/users/729554186777133088">
-    <img src="https://discord.c99.nl/widget/theme-3/729554186777133088.png" alt="Discord RPC isn't working!" title="Click here to visit my Discord Profile!">
+    <!-- <img src="https://discord.c99.nl/widget/theme-3/729554186777133088.png" alt="Discord RPC isn't working!" title="Click here to visit my Discord Profile!"> -->
+    <img src="https://statusbanner.com/banner/aurora-glass/729554186777133088.svg?animatedAvatar=1&showUsername=1" alt="Discord status">
   </a>
 </div>
 
